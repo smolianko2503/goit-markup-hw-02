@@ -1,7 +1,7 @@
 :root {
   /* Fonts */
   --main-font: Roboto, sans-serif;
-  --secondary-font: ralevay, sans-serif;
+  --secondary-font: raleway, sans-serif;
 
   /* Text colors */
   --main-txt-cl: #212121;
@@ -195,6 +195,7 @@
 
 .team-name {
   font-weight: 500;
+  font-size: 16px;
   line-height: calc(19 / 16);
   text-align: center;
   letter-spacing: 0.03em;
@@ -238,6 +239,10 @@ address {
   letter-spacing: 0.03em;
   color: var(--white-txt-cl);
   text-decoration: none;
+}
+
+.contacts-link {
+  color: rgba(255, 255, 255, 0.6);
 }
 
 /* portfolio */
